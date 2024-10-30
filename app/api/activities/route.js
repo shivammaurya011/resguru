@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import connectToDatabase from "@/lib/mongodb";
 import User from "@/models/user";
 import Career from "@/models/career";
-import Resource from "@/models/resources";
+import Resource from "@/models/resource";
 import { startOfDay, subDays } from 'date-fns';
 
 export async function GET() {
